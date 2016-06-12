@@ -1,0 +1,16 @@
+// Make sure you remember that underscore indicated a partial file that's meant to be imported.
+
+.top-bar {
+    background-color: $nav-background;
+    ul{
+        background-color: $nav-background;
+    }
+    .menu-text{
+        color: $nav-text-color;
+    }
+
+    .menu > .menu-text > a{
+        display: inline;
+        padding: 0;
+    }
+}
