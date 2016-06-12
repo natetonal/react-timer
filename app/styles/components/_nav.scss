@@ -2,6 +2,12 @@
 
 .top-bar {
     background-color: $nav-background;
+    a{
+        color: $nav-link-color;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
     ul{
         background-color: $nav-background;
     }
