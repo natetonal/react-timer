@@ -1,6 +1,13 @@
 // This will be a series of imports usually.
 
 @import "base/variables";
+
+// Foundation
+@import "base/foundation-settings";
+@import "foundation";
+@include foundation-everything;
+
+// Components
 @import "components/nav";
 @import "components/clock";
 @import "components/controls";
